@@ -27,10 +27,10 @@ function App() {
 
 function Home() {
   return (
-    <>
+    <div className="flex flex-col gap-8 my-10 justify-center items-center">
      <h3 className="text-center font-bold text-3xl mt-16 text-red-400">WELCOME TO OUR E-COMMERCE PAGE</h3>
-     <image className="w-40" src={LandingImage} alt="LandingImage"></image>
-    </>
+     <img className="w-80 rounded-2xl" src={LandingImage} alt="LandingImage"></img>
+    </div>
   );
 }
 
